@@ -1,14 +1,14 @@
 **Java 1.5 for OS X Lion**
 
-1.  [[Download]{.underline}](http://support.apple.com/downloads/DL1359/en_US/JavaForMacOSX10.5Update10.dmg) the
+1.  [[Download]](http://support.apple.com/downloads/DL1359/en_US/JavaForMacOSX10.5Update10.dmg) the
     official Java package from Apple, [[Java for Mac OS X 10.5 Update
-    10]{.underline}](http://support.apple.com/kb/DL1359) and mount the
+    10]](http://support.apple.com/kb/DL1359) and mount the
     disk image.\
-    ![](media/mac_image1.jpeg){width="5.729166666666667in" height="4.25in"}
+    ![](media/mac_image1.jpeg)
 
 2.  Register a copy (you\'ll be happy you did) of CharlesSoft\'s
     must-have
-    utility [[Pacifist]{.underline}](http://www.charlessoft.com/) to
+    utility [[Pacifist]](http://www.charlessoft.com/) to
     view the package contents within.
 
 3.  Open a terminal and get a root shell:\
@@ -31,8 +31,7 @@
 6.  Use *Pacifist* to open *JavaForMacOSX10.5Update10.pkg* in the disk
     image you downloaded in step 1 and navigate to*System \> Library \>
     Frameworks \> JavaVM.framework \> Versions*\
-    ![](media/mac_image2.jpeg){width="5.729166666666667in"
-    height="5.697916666666667in"}
+    ![](media/mac_image2.jpeg)
 
 7.  Select 1.5.0, right-click, and choose *Install to Default Location*.
     When asked, *Use Administrator Privileges*.
@@ -85,8 +84,7 @@
       \<string\>libjava.jnilib\</string\>**
 
 14. Save and exit your editor.\
-    ![](media/mac_image3.jpeg){width="5.729166666666667in"
-    height="4.302083333333333in"}
+    ![](media/mac_image3.jpeg)
 
 15. Create a symbolic link to *./Resources/Info.plist* in
     the *1.5.0_30* directory:\
@@ -149,5 +147,4 @@
 20. Run *Java Preferences.app* in your *Utilities* folder and check
     for *Java 1.5*. If it doesn\'t show, go back and double check your
     work.\
-    ![](media/mac_image4.jpeg){width="5.729166666666667in"
-    height="4.510416666666667in"}
+    ![](media/mac_image4.jpeg)
